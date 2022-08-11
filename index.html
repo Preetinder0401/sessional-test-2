@@ -13,17 +13,40 @@
     <div class="container-fluid" id="head">
         <h1 id="logo">My<span id="lspan">PixArt</span></h1>
         <ul id="navbar">
-            <li class="nav-items"><a href="#1">Home</a></li>
-            <li class="nav-items"><a href="#1">Gallery</a></li>
-            <li class="nav-items"><a href="#1">Contact</a></li>
+            <li class="nav-items"><a href="#search-container">Home</a></li>
+            <li class="nav-items"><a href="#container-photos">Gallery</a></li>
+            <li class="nav-items"><a href="#container-contacts">Contact</a></li>
         </ul>
     </div>
     <div class="container-fluid" id="search-container">
-        <input type="text" placeholder="Search..." id="search-input">
+        <input type="text" placeholder="(1-100)...." id="search-input">
         <button id="btn-search-icon"><i class="fa fa-search"></i></button>
     </div>
-    <div id="container">
+    <div class="container-fluid" id="container-photos">
         <div id="videos"></div>
+    </div>
+    <div class="container-fluid" id="container-contacts">
+        <div id="contact-section">
+            <h3 id="contact-heading">Contact Info</h3>
+            <div id="contact-info">
+                <h3> <i class="fas fa-envelope"></i> inder012@gmail.com </h3>
+                <h3> <i class="fas fa-phone"></i> +91 8427125096 </h3>
+                <h3> <i class="fas fa-phone"></i> +91 9056703600 </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Patiala, Punjab 147001</h3>
+            </div>
+        </div>
+        <div id="form-section">
+            <h3 id="form-heading">Get Connected</h3>
+            <form id="form-content">
+                <input type="text" placeholder="Name" class="box">
+                <input type="email" placeholder="Email" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box" placeholder="Message"></textarea>
+                <button class="btn btn-danger" id="btn-send"> Send <i class="fas fa-paper-plane"></i> </button>
+            </form>
+        </div>
+    </div>
+    <div id="footer-section" class="container-fluid">
+        <p>Powered by MyPixArt 2022&copy; All rights reserved</p>
     </div>
     <script src="script.js"></script>
 </body>

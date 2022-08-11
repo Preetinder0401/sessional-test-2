@@ -6,15 +6,18 @@ body{
 
 #head{
     box-shadow: 0px 0px 10px lightgray;
-    padding: 1em;
+    padding: 1%;
     background: linear-gradient(to bottom, rgb(255, 255, 255) , rgb(242, 242, 242));;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 }
 
 #logo{
-    font-size: 3em;;
+    font-size: 3vw;
     display: inline;
-    margin-left: 10%;
-    margin-right: 45%;
+    margin-left: 15%;
+    margin-right: 30%;
     font-weight: 750;
 }
 
@@ -29,18 +32,17 @@ body{
 
 .nav-items{
     display: inline;
-    font-size: 1.5em;
-    margin: 0.5em;
+    font-size: 1.5vw;
+    margin: 1%;
 }
 
-a, a:hover, a:focus, a:active {
+a{
     text-decoration: none;
     color: inherit;
 }
 
 a:hover{
     color: red;
-    border-bottom: 2px solid red;
 }
 
 #search-container{
@@ -53,8 +55,9 @@ a:hover{
 
 #search-input{
     position: relative;
-    top: 40%;
+    top: 50%;
     left: 35%;
+    z-index: 1;
     height: 5%;
     width: 30%;
     font-size: 1.5em;
@@ -62,7 +65,7 @@ a:hover{
 
 #search-container #btn-search-icon{
     position: relative;
-    top: 40%;
+    top: 50%;
     left: 35.5%;
     font-size: 1.5em;
 }
@@ -70,4 +73,76 @@ a:hover{
 #videos {
     display: flex;
     flex-wrap: wrap;
+}
+
+#container-contacts{
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-bottom: 6%;
+}
+
+#contact-section{
+    margin-bottom: 3%;
+    padding-top: 4%;
+    padding-left: 4%;
+    width: 30%;
+}
+
+#contact-heading{
+    padding-top: 5%;
+    color: red;
+    font-size: 2.5vw;
+    font-weight: 650;
+}
+
+#contact-info{
+    padding-top: 3%;
+}
+
+#contact-info h3{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+#contact-info h3 i{
+    color: red;
+    margin-right: 1%;
+}
+
+#form-section{
+    padding-left: 2%;
+    width: 45%;
+}
+
+#form-heading{
+    margin-left: 30%;
+    color: red;
+    font-size: 2.5vw;
+    font-weight: 650;
+}
+
+.box{
+    background-color: rgb(242, 242, 242);
+    border: none;
+    margin: 1% 0;
+    width:100%;
+    font-size: 1.2vw;
+    padding: 1%;
+}
+
+#btn-send{
+    font-size: 1.2vw;
+}
+
+#footer-section{
+    height: 5vh;
+    font-size: 1vw;
+    background-color: rgb(242, 242, 242);
+}
+
+#footer-section p{
+    margin: 0.5%;
+    margin-left: 38%;
+    font-weight: 600;
 }

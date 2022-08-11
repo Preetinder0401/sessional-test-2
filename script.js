@@ -17,7 +17,7 @@ document.querySelector('#btn-search-icon').addEventListener('click', () => {
                     for(let j=0; j < 50; j++){
                         console.log(j)
                         output += `
-                            <div style="width: 22.75%; margin: 1.2em;">
+                            <div style="width: 23%; margin: 1%;">
                                 <img style="width: 100%;" src=${response[j].url} />
                                 <h4>${response[j].title}</h4>
                             </div>
