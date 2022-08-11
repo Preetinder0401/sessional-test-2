@@ -67,10 +67,6 @@ a:hover{
     font-size: 1.5em;
 }
 
-#search-container #btn-search-icon:hover{
-    cursor: pointer;
-}
-
 #videos {
     display: flex;
     flex-wrap: wrap;
